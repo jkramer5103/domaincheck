@@ -1,7 +1,7 @@
 [project]
 name = "domaincheck"
 version = "0.1.0"
-description = "Add your description here"
+description = "Domain lookup CLI tool with parallel execution"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -10,3 +10,6 @@ dependencies = [
     "requests>=2.32.5",
     "rich>=14.3.3",
 ]
+
+[project.scripts]
+domaincheck = "main:main"

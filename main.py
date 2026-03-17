@@ -274,7 +274,7 @@ def display_results(domain: str, results: dict):
 
 def main():
     if len(sys.argv) < 2:
-        console.print("[red]Usage: uv run main.py <domain>[/]")
+        console.print("[red]Usage: domaincheck <domain>[/]")
         sys.exit(1)
     
     domain = sys.argv[1].strip().lower()
